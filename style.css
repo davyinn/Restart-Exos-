@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: black;
+    font-family: 'MedievalSharp', cursive;
+
+}
+
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    background-color:black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.menu{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+#logoankama{
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    filter: grayscale(100%);
+}
+#logowakfu{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.fondpage{
+    width: 100%;
+    height: 80%;
+    display: block;
+    
+}
+
+.carredecouvrir{
+    position: absolute;
+            top: 23%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: black; 
+            padding: 20px; 
+            border-radius: 10px;
+            text-align: center;
+            
+
+}
+.carredecouvrir:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+#decouvrir{
+    display:block ;
+    color: white;
+    text-decoration: none;
+}
+
+.saison4 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.trailer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right; 
+    color: white;
+}
+
+.imgsaison4{
+    display: block;
+    width: 75%;
+    justify-content: center;
+    object-fit: cover; 
+    margin: 0 auto;
+}
+
+
+
+.video{
+    display: inline-block;
+}
+
+.video:hover{
+    transform: scale(1.1);
+}
+
+.video-icon {
+    width: 90%;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+}
+
+
+
+.lightMode {
+    background-color: #f9f9f9;
+    color: #3c3c3c;
+}
+
+.darkMode {
+    background-color: #d3eeff;
+    color: #f0f0f0;
+}
+

@@ -1,0 +1,126 @@
+body{
+    font-family: 'MedievalSharp', cursive;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    background: color black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+   
+    
+}
+.menu{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#logoankama{
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    filter: grayscale(100%);
+}
+
+#logowakfu{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.pageperso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(16, 16, 16);
+    padding: 50px;
+    color: white;
+    justify-content: space-around;
+}
+
+#titrehero{
+    margin: 40px;  
+    width: 100%; 
+}
+
+.herosbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.herosimg{   
+    height: 250px;
+        
+}
+
+.herosimg:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.page-mechant{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+}
+
+#titre-mechant{
+     
+    margin-bottom: 20px
+}
+
+.img-mechant {
+    
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-mechant img {
+    height: 200px; 
+}
+
+.img-mechant-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 60%;
+   
+}
+
+.img-mechant img:hover{
+    transform: scale(1.1);
+  
+    
+}
+
+
+.lightMode {
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.darkMode {
+    background-color: #d3eeff;
+    color: #f0f0f0;
+}
+
+
